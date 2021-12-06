@@ -1,10 +1,10 @@
 export default function Usuario(){
     return(
         <div className="usuario">
-            <img src="assets/img/catanacomics.svg" alt=""/>
+            <img src="assets/img/michael-jordan.jpg" alt=""/>
             <div className="texto">
-            <strong>catanacomics</strong>
-            Catana
+            <strong>MJ</strong>
+            Michael Jordan
             </div>
         </div>
     )

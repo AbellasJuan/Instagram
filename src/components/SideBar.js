@@ -1,4 +1,4 @@
-import Sugestoes from "./Sugestoes";
+import Sugestoes from "../components/Sugestoes/Sugestoes.js";
 import Usuario from "./Usuario";
 
 export default function Sidebar(){

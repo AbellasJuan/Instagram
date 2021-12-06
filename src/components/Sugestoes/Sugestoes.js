@@ -3,28 +3,28 @@ import Sugestao from "./Sugestao.js";
 
 const sugestoes = [
     {
-        userImg:"assets/img/bad.vibes.memes.svg",
-        userName:"bad.vibes.memes",
+        userImg:"assets/img/chris.jpeg",
+        userName:"chris",
         ifIsFollower:"Segue você",
     },
     {
-        userImg:"assets/img/chibirdart.svg",
-        userName:"chibirdart",
+        userImg:"assets/img/greg.jpeg",
+        userName:"greg",
         ifIsFollower:"Segue você",
     },
     {
-        userImg:"assets/img/razoesparaacreditar.svg",
-        userName:"razoesparaacreditar",
+        userImg:"assets/img/casell.jpeg",
+        userName:"casell",
         ifIsFollower:"Segue você",
     },
     {
-        userImg:"assets/img/adorable_animals.svg",
-        userName:"adorable_animals",
+        userImg:"assets/img/manute.jpeg",
+        userName:"manute",
         ifIsFollower:"Novo no Instagram",
     },
     {
-        userImg:"assets/img/smallcutecats.svg",
-        userName:"smallcutecats",
+        userImg:"assets/img/calvin.jpeg",
+        userName:"calvin",
         ifIsFollower:"Segue você",
     },
     

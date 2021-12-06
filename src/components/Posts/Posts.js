@@ -2,20 +2,20 @@ import Post from "./Post";
 
 const posts =[
   {
-    userImg: "assets/img/meowed.svg",
-    userName: "meowed",
-    postImg: "assets/img/gato-telefone.svg",
+    userImg: "assets/img/mitchelstorie.jpg",
+    userName: "donavan",
+    postImg: "assets/img/donavan.jpg",
     qtdLikes: "101.523",
-    userLikedName: "respondeai",
-    userLikedImg: "assets/img/respondeai.svg",
+    userLikedName: "lillard",
+    userLikedImg: "assets/img/lillardstorie.jpg",
   },
   {
-    userImg: "./assets/img/barked.svg",
-    userName: "barked",
-    postImg: "./assets/img/dog.svg",
+    userImg: "./assets/img/lebronstorie.jpg",
+    userName: "lebron",
+    postImg: "./assets/img/lebron.jpg",
     qtdLikes: "99.159",
-    userLikedName: "adorable_animals",
-    userLikedImg: "./assets/img/adorable_animals.svg",
+    userLikedName: "curry",
+    userLikedImg: "./assets/img/currystorie.jpeg",
   }
 ];
 
