@@ -10,23 +10,14 @@ const posts =[
     userLikedImg: "assets/img/respondeai.svg",
   },
   {
-    userImg: "assets/img/meowed.svg",
-    userName: "meowed",
-    postImg: "assets/img/gato-telefone.svg",
-    qtdLikes: "101.523",
-    userLikedName: "respondeai",
-    userLikedImg: "assets/img/respondeai.svg",
-  },
-  {
-    userImg: "assets/img/meowed.svg",
-    userName: "meowed",
-    postImg: "assets/img/gato-telefone.svg",
-    qtdLikes: "101.523",
-    userLikedName: "respondeai",
-    userLikedImg: "assets/img/respondeai.svg",
-  },
-  
-]
+    userImg: "./assets/img/barked.svg",
+    userName: "barked",
+    postImg: "./assets/img/dog.svg",
+    qtdLikes: "99.159",
+    userLikedName: "adorable_animals",
+    userLikedImg: "./assets/img/adorable_animals.svg",
+  }
+];
 
 export default function Posts(){
     return(

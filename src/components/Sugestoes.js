@@ -1,4 +1,37 @@
-export default function Sugestoes(){
+import Sugestao from "./Sugestao.js";
+
+
+const sugestoes = [
+    {
+        userImg:"assets/img/bad.vibes.memes.svg",
+        userName:"bad.vibes.memes",
+        ifIsFollower:"Segue você",
+    },
+    {
+        userImg:"assets/img/chibirdart.svg",
+        userName:"chibirdart",
+        ifIsFollower:"Segue você",
+    },
+    {
+        userImg:"assets/img/razoesparaacreditar.svg",
+        userName:"razoesparaacreditar",
+        ifIsFollower:"Segue você",
+    },
+    {
+        userImg:"assets/img/adorable_animals.svg",
+        userName:"adorable_animals",
+        ifIsFollower:"Novo no Instagram",
+    },
+    {
+        userImg:"assets/img/smallcutecats.svg",
+        userName:"smallcutecats",
+        ifIsFollower:"Segue você",
+    },
+    
+]
+
+export default function Sugestoes(){       
+    
     return (
         
         <div className="sugestoes">
@@ -7,65 +40,8 @@ export default function Sugestoes(){
             <div>Ver tudo</div>
             </div>
 
-            <div className="sugestao">
-            <div className="usuario">
-                <img src="assets/img/bad.vibes.memes.svg"alt="" />
-                <div className="texto">
-                <div className="nome">bad.vibes.memes</div>
-                <div className="razao">Segue você</div>
-                </div>
-            </div>
+            {sugestoes.map ((sugestao, index)=> ( <Sugestao key={index} userImg={sugestao.userImg} userName={sugestao.userName} ifIsFollower={sugestao.ifIsFollower}/>))}
 
-            <div className="seguir">Seguir</div>
-            </div>
-
-            <div className="sugestao">
-            <div className="usuario">
-                <img src="assets/img/chibirdart.svg" alt=""/>
-                <div className="texto">
-                <div className="nome">chibirdart</div>
-                <div className="razao">Segue você</div>
-                </div>
-            </div>
-
-            <div className="seguir">Seguir</div>
-            </div>
-
-            <div className="sugestao">
-            <div className="usuario">
-                <img src="assets/img/razoesparaacreditar.svg" alt=""/>
-                <div className="texto">
-                <div className="nome">razoesparaacreditar</div>
-                <div className="razao">Novo no Instagram</div>
-                </div>
-            </div>
-
-            <div className="seguir">Seguir</div>
-            </div>
-
-            <div className="sugestao">
-            <div className="usuario">
-                <img src="assets/img/adorable_animals.svg" alt=""/>
-                <div className="texto">
-                <div className="nome">adorable_animals</div>
-                <div className="razao">Segue você</div>
-                </div>
-            </div>
-
-            <div className="seguir">Seguir</div>
-            </div>
-
-            <div className="sugestao">
-            <div className="usuario">
-                <img src="assets/img/smallcutecats.svg"alt="" />
-                <div className="texto">
-                <div className="nome">smallcutecats</div>
-                <div className="razao">Segue você</div>
-                </div>
-            </div>
-
-            <div className="seguir">Seguir</div>
-            </div>
         </div>
 
     )
